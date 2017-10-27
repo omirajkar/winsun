@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include winsun *.css
+recursive-include winsun *.csv
+recursive-include winsun *.html
+recursive-include winsun *.ico
+recursive-include winsun *.js
+recursive-include winsun *.json
+recursive-include winsun *.md
+recursive-include winsun *.png
+recursive-include winsun *.py
+recursive-include winsun *.svg
+recursive-include winsun *.txt
+recursive-exclude winsun *.pyc
